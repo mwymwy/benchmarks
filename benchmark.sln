@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "benchmark-app", "benchmark-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "benchmark-gui", "benchmark-gui\benchmark-gui.csproj", "{BF6F6155-332D-41AE-AA83-2D25738968E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "benchmark-lib", "..\benchmark-lib\benchmark-lib.csproj", "{90F813B2-0373-4B75-B18C-9FE7AE251BB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lib-test", "..\lib-test\lib-test.csproj", "{EC993B10-837B-4EA6-9717-659D24ED9CDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{BF6F6155-332D-41AE-AA83-2D25738968E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF6F6155-332D-41AE-AA83-2D25738968E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF6F6155-332D-41AE-AA83-2D25738968E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90F813B2-0373-4B75-B18C-9FE7AE251BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90F813B2-0373-4B75-B18C-9FE7AE251BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90F813B2-0373-4B75-B18C-9FE7AE251BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90F813B2-0373-4B75-B18C-9FE7AE251BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC993B10-837B-4EA6-9717-659D24ED9CDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC993B10-837B-4EA6-9717-659D24ED9CDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC993B10-837B-4EA6-9717-659D24ED9CDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC993B10-837B-4EA6-9717-659D24ED9CDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
